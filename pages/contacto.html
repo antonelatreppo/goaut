@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_contacto.css">
+    <link rel="stylesheet" href="../ext/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f114b1513.js" crossorigin="anonymous"></script>
+    
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div id="logo"> 
+            <img src="../img/goaut_logo.png" alt="logo">
+        </div>
+          <nav id="menu_principal">
+            <ul>
+                <li><a href="../index.html" class="boton_activo">HOME</a> </li>
+                <li><a href="../pages/mision.html" class="boton_activo">NUESTRA MISIÓN</a> </li>
+                <li><a href="app.html"class="boton_activo">LA APP</a> </li>
+                <li><a href="#"id="boton_presionado">CONTACTO</a> </li>
+            </ul>
+        </nav>     
+    </header>
+
+    <section>
+        <form id="formulario">
+            <div class="form-group">
+              <label for="nombre"><b>Nombre*</b></label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group">
+              <label for="apellido"> <b>Apellido*</b></label>
+              <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+            </div>
+            <div class="form-group">
+                <label for="email"><b>Email*</b></label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="mensaje"><b>Mensaje*</b></label>
+              <textarea class="form-control" id="mensaje" rows="5" placeholder="Deje su mensaje aquí"></textarea>
+            <br>
+
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+
+          </form>
+
+    </section>
+    
+    <footer>
+        <div>
+            <p id="texto_footer"> Seguinos en:</p>
+        </div>
+            <nav id="redes">
+                <ul>
+                    <li><a href="http://instagram.com" target="_blank" i class="fa-brands fa-instagram fa-2xl"> </i> </a></li>
+                    <li><a href="http://facebook.com" target="_blank" i class="fa-brands fa-facebook fa-2xl"> </i></a></li>
+                    <li><a href="http://linkedin.com" target="_blank" i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                </ul>
+            </nav>       
+    </footer>
+
+ <script src="../js/validacion.js"></script>
+</body>
+</html>
